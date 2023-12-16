@@ -2,30 +2,19 @@
 
 This is a comprehensive automation framework for Amazon shopping, developed using Python, Selenium, and the Page Object Model (POM) for front-end testing.
 
-## Project Structure
 
-```plaintext
-amazon_automation_framework/
-|-- src/
-|   |-- config/
-|       |-- AppConfig.py
-|
-|-- tests/
-|   |-- test_amazon_shopping.py
-|
-|-- pages/
-|   |-- base_page.py
-|   |-- home_page.py
-|   |-- search_results_page.py
-|   |-- product_page.py
-|   |-- cart_page.py
-|
-|-- utils/
-|   |-- LoggerUtil.py
-|
-|-- run_tests.py
-|-- requirements.txt
+
+
 # Usage
+Configure AppConfig:
+
+Set the Amazon URL in src/config/AppConfig.py.
+Run Tests:
+
+Execute tests using python run_tests.py.
+View Test Report:
+
+Check the HTML test report in the reports directory.
 
 ## Configure AppConfig:
 
